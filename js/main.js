@@ -231,15 +231,21 @@ function renderCapabilities() {
   const visibleGroups =
     role === "lang"
       ? skills.filter((g) =>
-          ["Language technology", "Frontend", "Data, ML & AI"].includes(
-            g.group,
-          ),
+          [
+            "Language technology",
+            "Frontend",
+            "Data, ML & AI",
+            "Security & resilience",
+          ].includes(g.group),
         )
       : role === "ai"
         ? skills.filter((g) =>
-            ["Data, ML & AI", "Backend & APIs", "Language technology"].includes(
-              g.group,
-            ),
+            [
+              "Data, ML & AI",
+              "Backend & APIs",
+              "Security & resilience",
+              "Language technology",
+            ].includes(g.group),
           )
         : skills;
   return `<section class="section-wrap section-block" id="capabilities">
@@ -254,7 +260,6 @@ function renderQaHighlights() {
     <div class="section-heading"><div><span class="eyebrow">02 / ANONYMISED QA HIGHLIGHTS</span><h2>Quality is a<br><em>delivery system.</em></h2></div><p class="section-intro">A practical automation workflow across the test lifecycle. Examples are described without employer, client, application or internal-tool identifiers.</p></div>
     <div class="qa-flow"><div class="qa-flow-label"><span>THE LOOP</span><b>SPEC → SCRIPT → RUN → FEEDBACK</b></div>${qaHighlights.map((item, index) => `<article class="qa-step"><span class="qa-number">${esc(item.n)}</span><div><h3>${esc(item.title)}</h3><p>${esc(item.body)}</p></div><span class="qa-arrow" aria-hidden="true">${index === qaHighlights.length - 1 ? "↺" : "↓"}</span></article>`).join("")}</div>
     <div class="qa-toolband"><span class="eyebrow">TOOLS IN THE WORKFLOW</span><div>${["Cypress", "Jasmine", "Karma", "Playwright", "Pytest", "Vitest", "Jenkins", "Jira"].map(chip).join("")}</div></div>
-    ${config.showAnonymousProfessionalHighlights ? `<div class="anonymous-note"><span class="eyebrow">ANONYMISED PROFESSIONAL HIGHLIGHTS</span><p>[FILL: approved, non-confidential examples and outcomes]</p></div>` : ""}
   </section>`;
 }
 
@@ -293,9 +298,10 @@ function renderTeaching() {
     <div class="subject-line"><span class="eyebrow">AREAS OF STUDY</span><div>${teaching.subjects.map(chip).join("")}</div></div>
     <div class="teaching-links"><span>PUBLIC LEARNING & WRITING</span>${linkMarkup(
       [
-        { label: "Telegram group", url: "[FILL: public Telegram invite URL]" },
         { label: "English blog", url: config.blog },
         { label: "Urdu blog", url: config.urduBlog },
+        { label: "Tools hub", url: config.tools },
+        { label: "Magazine", url: config.magazine },
       ],
     )}</div>
   </section>`;
@@ -348,15 +354,18 @@ function renderContact() {
   const emailIsReady = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(config.email);
   const contactControl = emailIsReady
     ? `<a class="button button-light" href="mailto:${esc(config.email)}">Email Shakeeb <span aria-hidden="true">↗</span></a>`
-    : `<span class="button button-light button-incomplete" aria-label="Add public email address before launch">Add public email before launch</span>`;
+    : `<a class="button button-light" href="#top">Update public email <span aria-hidden="true">↗</span></a>`;
   return `<section class="contact-section section-wrap" id="contact"><div class="contact-ornament">LET'S<br>MAKE<br><em>IT MATTER.</em></div><div class="contact-content"><span class="eyebrow">${audience === "job" ? "A CLOSER LOOK" : "HAVE A PROBLEM WORTH SOLVING?"}</span><h2>${audience === "job" ? "More context, on request." : "Have a thoughtful project in mind?"}</h2><p>${audience === "job" ? "For a role-specific discussion, selected project details and relevant technical context can be shared in conversation." : "Tell me what you are trying to build, improve or understand. The first step is a clear conversation."}</p>${contactControl}<div class="social-links">${linkMarkup(
     [
       { label: "GitHub", url: config.github },
       { label: "npm", url: config.npm },
       { label: "YouTube", url: config.youtube },
+      { label: "Facebook", url: config.facebook },
+      { label: "Instagram", url: config.instagram },
       { label: "Blog", url: config.blog },
+      { label: "Tools", url: config.tools },
     ],
-  )}</div><small class="email-note">${emailIsReady ? esc(config.email) : "[FILL: public contact email in js/data.js]"}</small></div></section>`;
+  )}</div><small class="email-note">${esc(config.email)}</small></div></section>`;
 }
 
 const sectionRegistry = {

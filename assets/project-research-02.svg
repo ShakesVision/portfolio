@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Urdu and Hindi poetry generation concept preview">
+  <rect width="1200" height="800" fill="#f5f0f6"/>
+  <rect x="90" y="90" width="1020" height="620" rx="24" fill="#fffdfd"/>
+  <rect x="140" y="150" width="400" height="500" rx="18" fill="#eee6f8"/>
+  <rect x="620" y="150" width="400" height="500" rx="18" fill="#f4efe7"/>
+  <text x="190" y="320" font-size="62" font-family="Georgia, serif" fill="#4b355a" direction="rtl" unicode-bidi="plaintext">شاعر کے</text>
+  <text x="190" y="410" font-size="62" font-family="Georgia, serif" fill="#7d5d9b" direction="rtl" unicode-bidi="plaintext">نقوش</text>
+  <text x="690" y="320" font-size="62" font-family="Georgia, serif" fill="#6c4e35">Hindi and Urdu</text>
+  <text x="690" y="410" font-size="62" font-family="Georgia, serif" fill="#a17e5d">generation patterns</text>
+  <text x="120" y="710" font-size="28" font-family="Segoe UI, Arial, sans-serif" fill="#5d3e67" font-weight="700">LANGUAGE MODEL STUDY</text>
+</svg>

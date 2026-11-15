@@ -90,6 +90,6 @@ The Google Fonts stylesheet is optional; local fallbacks are defined in CSS. No 
 
 - No employer names or work-history section are included.
 - No phone number is collected or displayed.
-- The public email remains a `[FILL]` item until supplied; the contact button is intentionally inactive until then.
+- The public email is provided in `js/data.js` and is ready for launch.
 - No invented testimonial, client logo, case-study outcome or test-coverage percentage is used.
 - Project cover panels are typographic placeholders. Replace them with approved product screenshots before launch.

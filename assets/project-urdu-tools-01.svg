@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Urdu Tools app overview preview">
+  <rect width="1200" height="800" fill="#f6f1e5"/>
+  <rect x="90" y="90" width="1020" height="620" rx="24" fill="#fffdf8"/>
+  <rect x="170" y="140" width="260" height="520" rx="22" fill="#ead8aa"/>
+  <rect x="500" y="140" width="500" height="200" rx="18" fill="#f4edd0"/>
+  <rect x="500" y="380" width="500" height="280" rx="18" fill="#f1ebee"/>
+  <rect x="220" y="230" width="160" height="160" rx="22" fill="#d4b15d" opacity="0.82"/>
+  <rect x="210" y="430" width="180" height="18" rx="9" fill="#8f7038" opacity="0.7"/>
+  <rect x="210" y="466" width="155" height="18" rx="9" fill="#b89f69" opacity="0.8"/>
+  <rect x="210" y="502" width="170" height="18" rx="9" fill="#b89f69" opacity="0.7"/>
+  <rect x="550" y="180" width="250" height="18" rx="9" fill="#8e6c2d" opacity="0.75"/>
+  <rect x="550" y="216" width="340" height="18" rx="9" fill="#b09d6c" opacity="0.8"/>
+  <rect x="550" y="250" width="310" height="18" rx="9" fill="#b09d6c" opacity="0.7"/>
+  <rect x="550" y="430" width="260" height="18" rx="9" fill="#8d5b60" opacity="0.72"/>
+  <rect x="550" y="468" width="340" height="18" rx="9" fill="#b2969d" opacity="0.8"/>
+  <rect x="550" y="506" width="310" height="18" rx="9" fill="#b2969d" opacity="0.7"/>
+  <rect x="550" y="544" width="250" height="18" rx="9" fill="#b2969d" opacity="0.7"/>
+  <text x="110" y="710" font-size="28" font-family="Segoe UI, Arial, sans-serif" fill="#7c5a19" font-weight="700">URDU TOOLS</text>
+</svg>

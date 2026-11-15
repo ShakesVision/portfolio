@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Shakeeb justify typography preview">
+  <rect width="1200" height="800" fill="#f4e8ec"/>
+  <rect x="90" y="90" width="1020" height="620" rx="26" fill="#fffdfd"/>
+  <rect x="150" y="150" width="900" height="500" rx="18" fill="#f5edef"/>
+  <text x="180" y="310" font-size="78" font-family="Georgia, serif" fill="#5b3244" direction="rtl" unicode-bidi="plaintext">خطِ باریک دل میں</text>
+  <text x="180" y="420" font-size="72" font-family="Georgia, serif" fill="#7f5a67" direction="rtl" unicode-bidi="plaintext">شعرِ موزوں، دفتری سادگی</text>
+  <text x="180" y="520" font-size="36" font-family="Segoe UI, Arial, sans-serif" fill="#7a6c74">Justified Urdu layout system</text>
+  <text x="110" y="710" font-size="28" font-family="Segoe UI, Arial, sans-serif" fill="#5f3344" font-weight="700">SHAKEEB-JUSTIFY</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Shakeeb justify stanza pattern preview">
+  <rect width="1200" height="800" fill="#f9f3eb"/>
+  <rect x="80" y="80" width="1040" height="640" rx="24" fill="#fffdfa"/>
+  <rect x="150" y="180" width="900" height="400" rx="18" fill="#f2e7d9"/>
+  <g font-family="Georgia, serif" fill="#5a4435" direction="rtl" unicode-bidi="plaintext">
+    <text x="190" y="270" font-size="58">تُرا گُلِ خیال</text>
+    <text x="190" y="350" font-size="58">بہت خوبصورت ہے</text>
+    <text x="190" y="430" font-size="58">قافیہ، وزن، سجاوٹ</text>
+    <text x="190" y="510" font-size="58">بناوٹ کا فن بھی</text>
+  </g>
+  <rect x="150" y="610" width="260" height="18" rx="9" fill="#9b7b58" opacity="0.7"/>
+  <text x="100" y="710" font-size="28" font-family="Segoe UI, Arial, sans-serif" fill="#4d3a2c" font-weight="700">STANZA PATTERNS</text>
+</svg>

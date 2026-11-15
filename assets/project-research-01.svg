@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="AI research summary preview">
+  <rect width="1200" height="800" fill="#edf3fb"/>
+  <rect x="90" y="90" width="1020" height="620" rx="24" fill="#fefdff"/>
+  <rect x="140" y="150" width="320" height="500" rx="18" fill="#e7ebfb"/>
+  <rect x="520" y="150" width="520" height="500" rx="18" fill="#f4f1ef"/>
+  <circle cx="300" cy="280" r="105" fill="#6b7bd3" opacity="0.85"/>
+  <rect x="200" y="430" width="200" height="18" rx="9" fill="#66708f" opacity="0.8"/>
+  <rect x="200" y="470" width="145" height="18" rx="9" fill="#a0a6ba" opacity="0.8"/>
+  <rect x="560" y="205" width="270" height="18" rx="9" fill="#6173af" opacity="0.8"/>
+  <rect x="560" y="245" width="370" height="18" rx="9" fill="#9ca9d1" opacity="0.82"/>
+  <rect x="560" y="285" width="330" height="18" rx="9" fill="#9ca9d1" opacity="0.72"/>
+  <rect x="560" y="420" width="220" height="18" rx="9" fill="#8c6d52" opacity="0.74"/>
+  <rect x="560" y="460" width="350" height="18" rx="9" fill="#b49e86" opacity="0.8"/>
+  <rect x="560" y="500" width="310" height="18" rx="9" fill="#b49e86" opacity="0.72"/>
+  <text x="110" y="710" font-size="28" font-family="Segoe UI, Arial, sans-serif" fill="#4b5d88" font-weight="700">NLP & GENERATION</text>
+</svg>
